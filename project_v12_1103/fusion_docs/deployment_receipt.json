@@ -1,0 +1,30 @@
+{
+  "target": "C:\\Users\\shiping\\Desktop\\FPGA\\source\\exemple\\project_v8_1022",
+  "backup": "C:\\Users\\shiping\\Desktop\\FPGA\\source\\exemple\\project_v8_1022\\_fusion_backup_20261022_164445",
+  "date": "20261022_164445",
+  "original_roots": [
+    "user_source",
+    "td_project",
+    "integration_docs",
+    "integration_sim",
+    "tracking_docs",
+    "tracking_sim",
+    "modelsim_v6.log",
+    "README_v6_使用说明.md",
+    "README_v8_云台自动跟踪说明.md"
+  ],
+  "new_roots": [
+    "README_v8_云台自动跟踪说明.md",
+    "README_v8_双工程融合说明.md",
+    "fusion_docs",
+    "fusion_sim",
+    "td_project",
+    "user_source"
+  ],
+  "written_files": 454,
+  "verified_source_files": 240,
+  "all_deployed_hashes_verified": true,
+  "all_original_locations_retained": true,
+  "hardware_flashed": false,
+  "phase": "complete"
+}

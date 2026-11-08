@@ -1,0 +1,225 @@
+# set r {C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022}
+# C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022
+#  do $r/run_fusion.do
+# C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source
+# C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/validation_fusion
+# reading modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:49:35 on Oct 22,2026
+# vlog -work work "+incdir+C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms" C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_bank.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_binary.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_bright.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_color_detect.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_contrast.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_edge_polar.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_fusion.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_gray.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_histeq.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_level.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_morph.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_motion.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_passthrough.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_polar_core.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_polar_fusion.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_sobel.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/algo_track.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/ddr_recovery_supervisor.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/frame_mailbox_cdc.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/key_mode_ctrl.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/line_buffer_3x3.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/line_buffer_3x3_sparse.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/polar_block_engine.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/polar_capture_ctrl.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/polar_ddr_arbiter.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/polar_status_cdc.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/polar_video_backend.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/red_region_selector.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/reset_sync.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/video_algorithm_display.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/algorithms/video_delay.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/osd/anlogic_logo_rom.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/osd/anlogic_logo_sync_rom_direct.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/osd/osd_char_lib.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/osd/video_status_osd.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/servo_control/camera_activity_watchdog.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/servo_control/gimbal_auto_ctrl.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/servo_control/gimbal_control_top.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/servo_control/gimbal_test_ctrl.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/servo_control/servo_pwm_dual.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/servo_control/track_target_cdc.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/motor_control/motor_control_top.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/motor_control/motor_key_filter.v C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/work/project_v8_1022/user_source/hdl_source/motor_control/tb6612_dual_driver.v 
+# -- Compiling module algo_bank
+# -- Compiling module algo_binary
+# -- Compiling module algo_bright
+# -- Compiling module algo_color_detect
+# -- Compiling module algo_contrast
+# -- Compiling module algo_edge_polar
+# -- Compiling module algo_fusion
+# -- Compiling module algo_gray
+# -- Compiling module algo_histeq
+# -- Compiling module algo_level
+# -- Compiling module algo_morph
+# -- Compiling module algo_motion
+# -- Compiling module algo_passthrough
+# -- Compiling module algo_polar_core
+# -- Compiling module algo_polar_fusion
+# -- Compiling module algo_sobel
+# -- Compiling module algo_track
+# -- Compiling module ddr_recovery_supervisor
+# -- Compiling module frame_mailbox_cdc
+# -- Compiling module key_mode_ctrl
+# -- Compiling module line_buffer_3x3
+# -- Compiling module line_buffer_3x3_sparse
+# -- Compiling module polar_block_engine
+# -- Compiling module polar_capture_ctrl
+# -- Compiling module polar_ddr_arbiter
+# -- Compiling module polar_status_cdc
+# -- Compiling module polar_pulse_cdc
+# -- Compiling module polar_video_backend
+# -- Compiling module red_region_selector
+# -- Compiling module reset_sync
+# -- Compiling module video_algorithm_display
+# -- Compiling module video_delay
+# -- Compiling module anlogic_logo_rom
+# -- Compiling module anlogic_logo_sync_rom_direct
+# -- Compiling module osd_char_lib
+# -- Compiling module video_status_osd
+# -- Compiling module camera_activity_watchdog
+# -- Compiling module gimbal_auto_ctrl
+# -- Compiling module gimbal_control_top
+# -- Compiling module gimbal_test_ctrl
+# -- Compiling module servo_pwm_dual
+# -- Compiling module track_target_cdc
+# -- Compiling module motor_control_top
+# -- Compiling module motor_key_filter
+# -- Compiling module tb6612_dual_driver
+# 
+# Top level modules:
+# 	ddr_recovery_supervisor
+# 	frame_mailbox_cdc
+# 	polar_video_backend
+# 	video_algorithm_display
+# 	anlogic_logo_rom
+# 	video_status_osd
+# 	camera_activity_watchdog
+# 	gimbal_control_top
+# 	track_target_cdc
+# 	motor_control_top
+# End time: 15:49:36 on Oct 22,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:49:36 on Oct 22,2026
+# vlog -sv -work work C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_tracking.sv C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_osd.sv C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fresh_regions.sv C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_auto_gimbal.sv C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_target_cdc.sv C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_gimbal_pwm_integration.sv 
+# -- Compiling module tb_fusion_tracking
+# -- Compiling module tb_fusion_osd
+# -- Compiling module tb_fresh_regions
+# -- Compiling module tb_auto_gimbal
+# -- Compiling module tb_target_cdc
+# -- Compiling module tb_gimbal_pwm_integration
+# 
+# Top level modules:
+# 	tb_fusion_tracking
+# 	tb_fusion_osd
+# 	tb_fresh_regions
+# 	tb_auto_gimbal
+# 	tb_target_cdc
+# 	tb_gimbal_pwm_integration
+# End time: 15:49:37 on Oct 22,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_auto_gimbal 
+# Start time: 15:49:37 on Oct 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_auto_gimbal(fast)
+# Loading work.gimbal_auto_ctrl(fast)
+# Loading work.gimbal_auto_ctrl(fast__1)
+# PASS tb_auto_gimbal checks=18 errors=0
+# ** Note: $finish    : C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_auto_gimbal.sv(43)
+#    Time: 20976 ns  Iteration: 0  Instance: /tb_auto_gimbal
+# Break in Module tb_auto_gimbal at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_auto_gimbal.sv line 43
+# Stopped at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_auto_gimbal.sv line 43
+# End time: 15:49:42 on Oct 22,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_target_cdc 
+# Start time: 15:49:42 on Oct 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_target_cdc(fast)
+# Loading work.track_target_cdc(fast)
+# PASS tb_target_cdc checks=203 errors=0
+# ** Note: $finish    : C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_target_cdc.sv(35)
+#    Time: 14187376 ps  Iteration: 1  Instance: /tb_target_cdc
+# Break in Module tb_target_cdc at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_target_cdc.sv line 35
+# Stopped at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_target_cdc.sv line 35
+# End time: 15:49:49 on Oct 22,2026, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_gimbal_pwm_integration 
+# Start time: 15:49:50 on Oct 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "gimbal_test_ctrl(fast)".
+# Loading sv_std.std
+# Loading work.tb_gimbal_pwm_integration(fast)
+# Loading work.gimbal_control_top(fast)
+# Loading work.motor_key_filter(fast)
+# Loading work.gimbal_test_ctrl(fast)
+# Loading work.gimbal_auto_ctrl(fast)
+# Loading work.servo_pwm_dual(fast)
+# PASS tb_gimbal_pwm_integration checks=249 errors=0
+# ** Note: $finish    : C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_gimbal_pwm_integration.sv(45)
+#    Time: 23951350 ns  Iteration: 1  Instance: /tb_gimbal_pwm_integration
+# Break in Module tb_gimbal_pwm_integration at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_gimbal_pwm_integration.sv line 45
+# Stopped at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/tracking_sim/tb_gimbal_pwm_integration.sv line 45
+# End time: 15:50:02 on Oct 22,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_fusion_tracking 
+# Start time: 15:50:02 on Oct 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "red_region_selector(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "algo_histeq(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "gimbal_test_ctrl(fast)".
+# Loading sv_std.std
+# Loading work.tb_fusion_tracking(fast)
+# Loading work.video_algorithm_display(fast)
+# Loading work.key_mode_ctrl(fast)
+# Loading work.reset_sync(fast)
+# Loading work.algo_bank(fast)
+# Loading work.algo_passthrough(fast)
+# Loading work.algo_gray(fast)
+# Loading work.algo_binary(fast)
+# Loading work.algo_sobel(fast)
+# Loading work.line_buffer_3x3(fast)
+# Loading work.video_delay(fast)
+# Loading work.video_delay(fast__1)
+# Loading work.video_delay(fast__2)
+# Loading work.video_delay(fast__3)
+# Loading work.algo_bright(fast)
+# Loading work.algo_level(fast)
+# Loading work.algo_contrast(fast)
+# Loading work.algo_level(fast__1)
+# Loading work.algo_histeq(fast)
+# Loading work.video_delay(fast__4)
+# Loading work.algo_morph(fast)
+# Loading work.algo_morph(fast__1)
+# Loading work.algo_color_detect(fast)
+# Loading work.red_region_selector(fast)
+# Loading work.video_delay(fast__5)
+# Loading work.algo_track(fast)
+# Loading work.algo_motion(fast)
+# Loading work.track_target_cdc(fast)
+# Loading work.camera_activity_watchdog(fast)
+# Loading work.gimbal_control_top(fast)
+# Loading work.motor_key_filter(fast)
+# Loading work.gimbal_test_ctrl(fast)
+# Loading work.gimbal_auto_ctrl(fast)
+# Loading work.servo_pwm_dual(fast)
+# PASS tb_fusion_tracking checks=15 updates=24 errors=0
+# ** Note: $finish    : C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_tracking.sv(72)
+#    Time: 6212318267 ps  Iteration: 0  Instance: /tb_fusion_tracking
+# Break in Module tb_fusion_tracking at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_tracking.sv line 72
+# Stopped at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_tracking.sv line 72
+# End time: 15:50:12 on Oct 22,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_fusion_osd 
+# Start time: 15:50:13 on Oct 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.tb_fusion_osd(fast)
+# Loading work.video_status_osd(fast)
+# Loading work.osd_char_lib(fast)
+# Loading work.anlogic_logo_sync_rom_direct(fast)
+# PASS tb_fusion_osd checks=40294 errors=0
+# ** Note: $finish    : C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_osd.sv(52)
+#    Time: 402987 ns  Iteration: 0  Instance: /tb_fusion_osd
+# Break in Module tb_fusion_osd at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_osd.sv line 52
+# Stopped at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fusion_osd.sv line 52
+# End time: 15:50:18 on Oct 22,2026, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim -c -onfinish stop -voptargs="+acc" work.tb_fresh_regions 
+# Start time: 15:50:19 on Oct 22,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "red_region_selector(fast)".
+# Loading sv_std.std
+# Loading work.tb_fresh_regions(fast)
+# Loading work.red_region_selector(fast)
+# PASS tb_fresh_regions held_invalid=2
+# ** Note: $finish    : C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fresh_regions.sv(69)
+#    Time: 8492830 ns  Iteration: 1  Instance: /tb_fresh_regions
+# Break in Module tb_fresh_regions at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fresh_regions.sv line 69
+# Stopped at C:/Users/shiping/Documents/ChatGPT/FPGA/fusion_v8_20261022/sim/tb_fresh_regions.sv line 69
+# End time: 15:50:25 on Oct 22,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

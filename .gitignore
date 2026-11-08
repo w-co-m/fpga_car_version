@@ -1,0 +1,9 @@
+# FPGA build outputs and logs
+*_Runs/
+log/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key

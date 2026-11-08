@@ -1,0 +1,38 @@
+# PH1P35_FT V1 / HX1P35B_FT_40P: verified against 3_原理图, 2026-10-05.
+# C4: FPGA_A_SYSCLK_50MHZ; SW0/A4 is application reset (0=reset, 1=run).
+set_pin_assignment { I_sys_clk } { LOCATION = C4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_rst_n } { LOCATION = A4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+# SW1/B4 (schematic switch SW2): 0=algorithm selection, 1=threshold adjustment.
+set_pin_assignment { I_threshold_edit } { LOCATION = B4; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# FPGA side of TXS0104 (U53) is 3.3V. O_cam_rst actually drives FPWDNB.
+set_pin_assignment { O_cam_scl } { LOCATION = K3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { IO_cam_sda } { LOCATION = J3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { O_cam_24m } { LOCATION = L3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_cam_rst } { LOCATION = L2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+# Schematic rechecked line by line, 2026-10-09: KEY2/B9 -> previous, KEY3/C7 -> next.
+# Logical key0_n/key1_n remain active-low. Bank standard stays LVCMOS33.
+# KEY2/B9: R74 10k -> VCC_3V3; KEY3/C7: R73 10k -> VCC_3V3 (BANK42=3.3V).
+set_pin_assignment { I_button[0] } { LOCATION = B9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_button[1] } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+
+# HDMI1: D0 P/N=G16/H16; D1=F17/E18; D2=H14/H13; CLK=C17/D18.
+set_pin_assignment { O_tmds_ch0_p } { LOCATION = G16; IOSTANDARD = TMDS33; PULLTYPE = NONE; }
+set_pin_assignment { O_tmds_ch1_p } { LOCATION = F17; IOSTANDARD = TMDS33; PULLTYPE = NONE; }
+set_pin_assignment { O_tmds_ch2_p } { LOCATION = H14; IOSTANDARD = TMDS33; PULLTYPE = NONE; }
+set_pin_assignment { O_tmds_clk_p } { LOCATION = C17; IOSTANDARD = TMDS33; PULLTYPE = NONE; }
+
+
+# Retained v8 wheel and gimbal pins
+set_pin_assignment { I_motor_key_n[0] } { LOCATION = D5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_motor_key_n[1] } { LOCATION = A9; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { O_motor_ain1 } { LOCATION = T4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_motor_ain2 } { LOCATION = T3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_motor_pwma } { LOCATION = R5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_motor_bin1 } { LOCATION = R3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_motor_bin2 } { LOCATION = R2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_motor_pwmb } { LOCATION = R1; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_motor_stby } { LOCATION = P6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_servo_pan_pwm } { LOCATION = N2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_servo_tilt_pwm } { LOCATION = N3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }

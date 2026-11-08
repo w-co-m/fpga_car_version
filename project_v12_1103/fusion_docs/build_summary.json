@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-22",
+  "basis": "project_v8_1022 + prj_zhou_v3_1022.zip",
+  "source_added": 40,
+  "source_modified": 19,
+  "source_removed": 30,
+  "source_unchanged": 181,
+  "registered_project_entries": 96,
+  "main_regressions_passed": 97,
+  "special_regression_groups_passed": 5,
+  "integration_tests_passed": [
+    "tb_auto_gimbal",
+    "tb_target_cdc",
+    "tb_gimbal_pwm_integration",
+    "tb_fusion_tracking",
+    "tb_fusion_osd",
+    "tb_fresh_regions"
+  ],
+  "resource_utilization": {
+    "slice": {
+      "used": 19027,
+      "total": 21216,
+      "percent": 89.68
+    },
+    "lut6": {
+      "used": 17970,
+      "total": 21216,
+      "percent": 84.7
+    },
+    "eram": {
+      "used": 97,
+      "total": 108,
+      "percent": 89.81
+    },
+    "dsp": {
+      "used": 22,
+      "total": 40,
+      "percent": 55.0
+    }
+  },
+  "setup_wns_ns": 0.041,
+  "hold_wns_ns": 0.02,
+  "setup_tns_ns": 0.0,
+  "hold_tns_ns": 0.0,
+  "sta_coverage_percent": 98.56,
+  "bitstreams": [
+    {
+      "path": "td_project/camera_to_dsi_display_Runs/phy_1/camera_to_dsi_display.bit",
+      "bytes": 1789539,
+      "sha256": "efe3e8ca6ecb593fd86e9155bc4ff0c36c4412ef21c8e34110cc9e0892e732a3"
+    },
+    {
+      "path": "td_project/camera_to_dsi_display_Runs/phy_1/camera_to_dsi_display_compress.bit",
+      "bytes": 1598449,
+      "sha256": "7ee34e3436945547c170d60476fd427c0bf0cabb564d716d0afc3242d8d6a00c"
+    }
+  ],
+  "hardware_flashed": false,
+  "recognition": "red connected-component single-target detection/tracking; no semantic classifier",
+  "auto_follow_mode": "F",
+  "all_original_pin_locations_retained": true
+}

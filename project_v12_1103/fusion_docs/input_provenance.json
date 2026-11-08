@@ -1,0 +1,8 @@
+{
+  "teammate_archive": "C:\\Users\\shiping\\Desktop\\FPGA\\source\\exemple\\prj_zhou_v3_1022.zip",
+  "bytes": 548289240,
+  "sha256": "c484ba9db47a85e9be9e519d75c7435b6d967888b56c2f7dbf1ead1c69276032",
+  "all_zip_entries_crc_unchanged": true,
+  "baseline_source_snapshot": "baseline_hashes.json",
+  "extracted_material": "user/ plus audited tests/references only; tools/archive development instructions were not treated as user requests"
+}
